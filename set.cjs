@@ -25,7 +25,7 @@ const config = {
   OWNER_NAME: process.env.OWNER_NAME || "♻️Kelly S Ncube♻️",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "27699204243",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyAkHGe6qWMujR2BjM468vQbY2RIbp0VXyc",
-  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
+  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : true, 
 };
 
 
