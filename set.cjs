@@ -8,7 +8,7 @@ const config = {
   AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS !== undefined ? process.env.AUTO_REPLY_STATUS === 'true' : false,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'Status Viewed by Gifted-Md',
   AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'true' : false,
-  AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES !== undefined ? process.env.AUTO_READ_MESSAGES === 'true' : true,
+  AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES !== undefined ? process.env.AUTO_READ_MESSAGES === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : true,
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : true,
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE !== undefined ? process.env.ALWAYS_ONLINE === 'true' : true,
@@ -25,7 +25,7 @@ const config = {
   OWNER_NAME: process.env.OWNER_NAME || "✨Kelly S Ncube✨",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "27699204243",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyAkHGe6qWMujR2BjM468vQbY2RIbp0VXyc",
-  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : true, 
+  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
 
 
